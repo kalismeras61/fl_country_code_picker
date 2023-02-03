@@ -113,7 +113,7 @@ class _CountryCodePickerModalState extends State<CountryCodePickerModal> {
             child: TextField(
               keyboardType: TextInputType.text,
               decoration: const InputDecoration(
-                hintText: "'Country', 'Code' or 'Dial Code'",
+                hintText: "'Ülke ya da Ülke Kodu Ara",
                 hintStyle: TextStyle(fontSize: 12),
                 suffixIcon: Icon(Icons.search),
                 border: OutlineInputBorder(
@@ -216,7 +216,7 @@ class _ModalTitle extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.all(16),
       child: Text(
-        'Select your country',
+        'Ülke Seçiniz',
         style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
       ),
     );
